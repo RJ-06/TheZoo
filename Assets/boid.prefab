@@ -134,7 +134,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 4.5
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4059921529735238223
 MonoBehaviour:
@@ -150,15 +150,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BoidBehavior
   speed: 1
   vel: {x: 0, y: 0, z: 0}
-  minSpeed: 3
+  minSpeed: 2
   maxSpeed: 15
   separationRange: 3
   groundYPos: 8
   topYPos: 21
-  separationFactor: 9
-  matchingFactor: 6
-  centeringFactor: 4
-  turnFactor: 8
+  separationFactor: 18
+  matchingFactor: 4
+  centeringFactor: 5
+  turnFactor: 12
   leftMargin: {fileID: 0}
   rightMargin: {fileID: 0}
   frontMargin: {fileID: 0}
@@ -188,5 +188,5 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 0
   m_CollisionDetection: 0
