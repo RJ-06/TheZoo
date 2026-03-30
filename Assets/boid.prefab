@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3045920185105097408}
   - component: {fileID: 4059921529735238223}
   - component: {fileID: -8581952799128365025}
+  - component: {fileID: 7638835810430818602}
   m_Layer: 0
   m_Name: boid
   m_TagString: Untagged
@@ -190,3 +191,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7638835810430818602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247711023005993231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bead8df9c2f14c3479f364f73166495b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RandomizeColor
